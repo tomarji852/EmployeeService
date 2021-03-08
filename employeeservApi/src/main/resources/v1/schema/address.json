@@ -1,0 +1,50 @@
+{
+  "title": "Employee address resource",
+  "description": "Employee address object",
+  "type": "object",
+  "properties": {
+    "line1": {
+      "description": "line 1",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 255
+    },
+    "line2": {
+      "description": "line 2",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 255
+    },
+    "city": {
+      "description": "city",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 255
+    },
+    "state": {
+      "description": "state",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 255
+    },
+    "country": {
+      "description": "country",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 255
+    },
+    "zip_code": {
+      "description": "zip code",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 255
+    }
+  },
+  "required": [
+    "line1",
+    "city",
+    "state",
+    "country",
+    "zip_code"
+  ]
+}
